@@ -11,7 +11,7 @@ configDotenv();
 export class TelegramService {
 
     private readonly bot = new Telegraf(config.telegram.PORTFOLIO_BOT);
-    private readonly ids = ["5090838886"]
+    private readonly ids = config.telegram.TELEGRAM_IDS.split(',').map(id => id.trim());
 
     async conexao(loginBody: LoginBody) {
 

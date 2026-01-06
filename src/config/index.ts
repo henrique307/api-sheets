@@ -8,7 +8,8 @@ export const config = {
         SECRET: process.env.SECRET
     },
     telegram: {
-        PORTFOLIO_BOT: process.env.PORTFOLIO_BOT
+        PORTFOLIO_BOT: process.env.PORTFOLIO_BOT,
+        TELEGRAM_IDS: process.env.TELEGRAM_IDS
     },
     google: {
         CLIENT_EMAIL: process.env.CLIENT_EMAIL,
