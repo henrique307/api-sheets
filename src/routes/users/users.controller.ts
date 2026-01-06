@@ -5,7 +5,7 @@ import { UpdateUserDto } from './dto/update-user.dto';
 import { UsersService } from './users.service';
 import { Controller, UseGuards } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
-import { ApiBearerAuth, ApiHeader, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
+import { ApiBearerAuth, ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { Unauthorized } from 'src/auth/interface/apiResponse.interfaces';
 import { BasicUserResponse } from './dto/basic-user-response.dto';
 @ApiResponse({ description: "não autorizado", type: Unauthorized, status: 401 })

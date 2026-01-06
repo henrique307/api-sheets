@@ -1,5 +1,4 @@
-import { ApiProperty } from "@nestjs/swagger"
-import { IsEmail, IsNotEmpty, IsOptional, IsString, Matches, isNotEmpty } from "class-validator"
+import { IsEmail, IsNotEmpty, IsString, Matches } from "class-validator"
 
 export class MessageDTO {
     @IsNotEmpty({ message: "É necessário informar um nome." })
