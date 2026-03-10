@@ -1,9 +1,9 @@
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 
 const swaggerConfig = new DocumentBuilder()
-    .setTitle("Portfolio API")
+    .setTitle("Google Sheets API")
     .setDescription(
-        `API integrada à minha planilha no google sheets, utilizada para alterar dinamicamente os valores da planilha, também é possível utiliza-la no meu portfolio. para acessar seus endpoints você deve primeiro autenticar-se na rota /auth com seu nome e email para gerar um token JWT utiliza-lo em 'Authorize'
+        `API integrada à minha planilha no google sheets, utilizada para alterar dinamicamente os valores da planilha, para acessar seus endpoints você deve primeiro autenticar-se na rota /auth com seu nome e email para gerar um token JWT utiliza-lo em 'Authorize'
 
         Planilha:
         https://docs.google.com/spreadsheets/d/1XaNeCEZYG9A0GJtdCvM2RqTKlbJqjNiAI267TZN-RYU
