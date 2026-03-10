@@ -9,7 +9,7 @@ const swaggerConfig = new DocumentBuilder()
         https://docs.google.com/spreadsheets/d/1XaNeCEZYG9A0GJtdCvM2RqTKlbJqjNiAI267TZN-RYU
 
         Portfolio:
-        https://henrique307.github.io/portfolio-react/
+        https://hennridev.work/
         `
     )
     .setVersion("1.1")
